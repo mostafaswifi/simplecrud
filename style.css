@@ -1,0 +1,21 @@
+.parent{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    background-color: #eee;
+    border: 1px solid teal;
+    margin: 10px auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 2rem;
+
+}
+
+.parent .buttons{
+    margin: 15px auto;
+}
+
+.parent form input:focus{
+    outline: none;
+}
